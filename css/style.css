@@ -1,30 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  overflow: hidden;
 }
-div{
-    width: 200px;
-    height: 200px;
-    background-color: azure;
-    margin: 100px auto;
-    font-size: 2em;
-    line-height: 200px;
-    text-align: center;
-    font-variant: small-caps;
-    color: wheat;
+h1 {
+    margin: 55px 0 0 0;
+    color: darkgreen;
+    border-bottom: darkgreen 3px solid;
+}
+#flexer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
 
 }
-#border{
-    border-width: 1px 2px 3px 4px;
-    border-style: dashed dotted solid double;
-    border-color: lightgreen darkgreen;
-    border-radius: 10px;
+#flexer div {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 50px 50px 0 50px;
+  font-size: 20px;
+  line-height: 200px;
+  color: wheat;
 }
-#boxshadow{
-    box-shadow: 10px 10px 5px 5px darkgreen, -10px -10px 50px 5px rgb(93, 100, 0);;
+#border {
+  border: inset 5px darkgreen;
+}
+#boxshadow {
+  box-shadow: 10px 10px 5px 5px darkgreen, -10px -10px 50px 5px rgb(93, 100, 0);
+}
+
+#textshadow{
+   text-shadow: 10px 10px  rgba(46, 107, 9, 1);
+}
+#borderradius{   
+    border-radius: 50% 10% 50% 10%;
 }
