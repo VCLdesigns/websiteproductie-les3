@@ -46,3 +46,7 @@ h1 {
 #borderradius{   
     border-radius: 50% 10% 50% 10%;
 }
+#outline{
+    border: 5px inset darkgreen;
+    outline: 5px outset darkgreen;
+}
