@@ -15,7 +15,7 @@ div{
     font-size: 2em;
     line-height: 200px;
     text-align: center;
-    letter-spacing: 10px;
+    font-variant: small-caps;
     color: wheat;
 
 }
@@ -24,4 +24,7 @@ div{
     border-style: dashed dotted solid double;
     border-color: lightgreen darkgreen;
     border-radius: 10px;
+}
+#boxshadow{
+    box-shadow: 10px 10px 5px 5px darkgreen, -10px -10px 50px 5px rgb(93, 100, 0);;
 }
