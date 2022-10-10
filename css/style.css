@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    margin: 100px auto;
+    font-size: 2em;
+    line-height: 200px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: wheat;
+
+}
+#border{
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed dotted solid double;
+    border-color: lightgreen darkgreen;
+    border-radius: 10px;
+}
