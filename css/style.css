@@ -50,3 +50,6 @@ h1 {
     border: 5px inset darkgreen;
     outline: 5px outset darkgreen;
 }
+#gradient{
+    background: radial-gradient(ellipse at center, #bfd255 0%,#72aa00 47%,#8eb92a 66%,#9ecb2d 100%);
+}
